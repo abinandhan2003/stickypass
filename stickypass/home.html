@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Stickypass</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+  <!-- =====BOX ICONS===== -->
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>
+    <header class="header d-flex align-items-center p-3 justify-content-around">
+        <span class="header-logo">
+            <img src="img/logo.jpeg" height="60px" width="80px" alt="logo" >
+        <h1 class="header-tittle">STICKYPASS<span class="header-dot"></h1></span> 
+        </span>
+        <a href="" class="toggle-button off" onclick="one()">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <span class="navbar-links">
+          <ul>
+            <li><a href="https://regalweb.tech" class="btn btn-outline-dark">Regalweb</a></li>
+            <li><a href="/login" class="btn btn-dark">Login/Sign Up</a></li>
+          </ul>
+        </span>
+    </header>
+    <div class="body1-outer ">
+        <t class=" display-3 text-center">Save your password securely and <br>access it from anywhere</t>
+        <br>
+        <button type="button" class="btn btn-lg fw-bold btn-header btn-outline-primary">Subscribe</button>
+    </div>
+    <div class="body2-outer">
+        <div class="body2-inner d-flex align-items-center justify-content-evenly flex-wrap gap-5">
+            <div class="card" style="width: 18rem;">
+                <img src="img/website.png"  height="200px" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Website</h5>
+                  <p class="card-text">To access th stickypass application anywhere from any platform with you browser</p>
+                  <a href="#" class="btn btn-primary font-none"> Click here</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <model-viewer src="img/TIME HOTEL 1.20.glb" auto-rotate camera-controls style="height: 200px;"></model-viewer>
+                <div class="card-body">
+                  <h5 class="card-title">Android</h5>
+                  <p class="card-text">Download the app now ! to access it from any android device</p>
+                  <a href="#" class="btn btn-primary">Download</a>
+                </div>
+              </div>
+              <div class="card " style="width: 18rem;">
+                <model-viewer src="img/MacBook Pro.glb" auto-rotate camera-controls style="height: 200px;"></model-viewer>
+                <div class="card-body ">
+                  <h5 class="card-title">Windows</h5>
+                  <p class="card-text">Windows apps are usualy more optimise to work. Download the latest version of stickypass</p>
+                  <a href="#" class="btn btn-primary">Download</a>
+                </div>
+              </div>
+
+        </div>
+            
+    </div>
+    <div class="body-3 w-100 py-5 d-flex align-items-center justify-content-center">
+      <span class="w-70 p-5">
+        <h1 class="display-1 fw-bold">Privacy</h1>
+        <p class="lead">It is secure this app is totally encrypted in-between application and data base.</p>
+         <!-- <span class="d-flex align-items-center justify-content-center py-3 w-100"> <button class="btn btn-outline-primary">Get Started</button></span> -->
+      </span>
+      <span class="w-30">
+        <img src="img/security.png" width="100%" height="100%" alt="">
+      </span>
+    </div>
+    <div class="body-3 w-100 py-5 d-flex align-items-center justify-content-center">
+      <span class="w-30">
+        <img src="img/ui.png" width="100%" height="100%" alt="">
+      </span>
+      <span class="w-70 p-5">
+        <h1 class="display-1 fw-bold">User friendly</h1>
+        <p class="lead">Stickypass is user friendly and easy to understandable.</p>
+         <span class="d-flex align-items-center justify-content-center py-3 w-100"></span>
+      </span>
+    </div>
+    <div class="body-3 w-100 py-5 d-flex align-items-center justify-content-center">
+      <span class="w-70 p-5">
+        <h1 class="display-1 fw-bold">Accessibility</h1>
+        <p class="lead">We can be able to access from anywhere and all platforms</p>
+         <!-- <span class="d-flex align-items-center justify-content-center py-3 w-100"> <button class="btn btn-outline-primary">Get Started</button></span> -->
+      </span>
+      <span class="w-30">
+        <img src="img/access.png" width="100%" height="100%" alt="">
+      </span>
+    </div>
+    <section class="body4-outer p-5">
+     <div class="d-flex align-items-center  justify-content-evenly gap-2 rounded-4 card bg-white text-black flex-column" style="height: 250px;width:350px;">
+        <div class="img align-items-center justify-content-evenly gap-3">
+          <img src="img/profile.png" height="100" width="100" alt="">
+          <div class="flex-column justify-content-center align-items-center">
+            <h1 class="body4-user">User</h1>
+          </div>
+        </div>
+        <div class="content text-center">
+          Stickypass is helps to save my password with security and it's also user friendly
+        </div>
+     </div>
+     <div class="d-flex align-items-center  justify-content-evenly p-3 gap-2 rounded-4 card text-black flex-column" style="height: 250px;width:350px;">
+      <div class="img align-items-center justify-content-evenly gap-3">
+        <img src="img/profile.png" height="100" width="100" alt="">
+        <div class="flex-column justify-content-center align-items-center">
+          <h1 class="body4-user">User</h1>
+        </div>
+      </div>
+      <div class="content">
+        Stickypass is helps to save my password with security and it's also user friendly
+      </div>
+   </div>
+   <div class="d-flex align-items-center  justify-content-evenly p-3 gap-2 rounded-4 card bg-white text-black flex-column" style="height: 250px;width:350px;">
+    <div class="img align-items-center justify-content-evenly gap-3">
+      <img src="img/profile.png" height="100" width="100" alt="">
+      <div class="flex-column justify-content-center align-items-center">
+        <h1 class="body4-user">User</h1>
+      </div>
+    </div>
+    <div class="content">
+      Stickypass is helps to save my password with security and it's also user friendly
+    </div>
+ </div> 
+ 
+</section>  
+<footer class="footer">
+<p class="footer__title">STICKYPASS</p>
+<div class="footer__social">
+  <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a><pre> </pre>
+  <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a><pre> </pre>
+  <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a><pre> </pre>
+  <br>
+</div>
+<div class="pandc"><a href="/privacy" class="privacy">PRIVACY</a><samp class="pp">|</samp>
+  <a href="/terms" class="privacy">TERMS</a></div>
+<p class="footer__copy">2022 - ©️<a href="https://regalweb.com" class="rw"> Regalweb</a></p>
+</footer>
+    
+</body>
+</html>
